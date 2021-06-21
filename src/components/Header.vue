@@ -1,15 +1,29 @@
 <template>
-  <section>
-      <h1>Header Title</h1>
-  </section>
+    <section>
+
+        <TopInfo />
+
+        <Jumbotron />
+
+
+    </section>
 </template>
 
 <script>
+import TopInfo from "./TopInfo.vue"
+import Jumbotron from "./Jumbotron.vue"
+
+
 export default {
-    name: "Header"
+    name: "Header",
+    components: {
+        TopInfo,
+        Jumbotron
+    }
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
 
 </style>

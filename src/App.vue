@@ -16,9 +16,6 @@ import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
 import "../src/style/general.scss"
 
-
-
-
 export default {
   name: 'App',
   components: {

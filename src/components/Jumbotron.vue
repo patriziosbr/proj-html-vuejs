@@ -1,23 +1,26 @@
 <template>
   <section>
         <div class="jumbotron container-fluid">
-            <nav class="container">
-                <div>
-                    <a href="/">
-                        <p>logo</p>
-                    </a>
-                </div>
-            </nav>
-            <div>
+            
+            <NavBar :links="navTags"/>
 
-            </div>
+            <Absolute />
+          
         </div>
   </section>
 </template>
 
 <script>
+import NavBar from "./NavBar.vue"
+import Absolute from "./Absolute.vue"
+
 export default {
-    name: "Jumbotron"
+    name: "Jumbotron",
+    props: [ "navTags" ],
+    components: {
+        NavBar,
+        Absolute
+    }
 
 }
 </script>

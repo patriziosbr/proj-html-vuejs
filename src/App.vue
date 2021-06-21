@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <Header />
+    <Header :navArr="navLinks"/>
 
     <Main />
 
@@ -18,11 +18,46 @@ import "../src/style/general.scss"
 
 export default {
   name: 'App',
+      data() {
+        return {
+            navLinks: [
+                {
+                  txt: "home",
+                  active: true 
+                },
+                {
+                  txt: "about",
+                  active: false
+                },
+                {
+                  txt: "service",
+                  active: false
+                },
+                {
+                  txt: "team",
+                  active: false
+                },
+                {
+                  txt: "blog",
+                  active: false
+                },
+                {
+                  txt: "",
+                  active: false
+                },
+                {
+                  txt: "get in touch",
+                  active: false
+                }
+            ]
+        }
+    },
   components: {
     Header,
     Main,
     Footer
   }
+
 }
 </script>
 

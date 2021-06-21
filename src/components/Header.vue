@@ -3,7 +3,7 @@
 
         <TopInfo />
 
-        <Jumbotron />
+        <Jumbotron :navTags="navArr" />
 
 
     </section>
@@ -16,6 +16,7 @@ import Jumbotron from "./Jumbotron.vue"
 
 export default {
     name: "Header",
+    props: [ "navArr" ],
     components: {
         TopInfo,
         Jumbotron

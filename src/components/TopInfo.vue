@@ -33,7 +33,7 @@
                             <i class="fab fa-twitter"></i>
                         </a>
                     </li>
-                    <li>
+                    <li class="me-0">
                         <a href="#">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
@@ -90,18 +90,18 @@ export default {
                     align-items: center;
                 }
                 
-                    .social {
-                        list-style: none;
-                        margin: 0;
-                        padding: 0 0 0 16px;
-                        li {
-                            margin: 0 16px;
-                            a {
-                                color: #fff;
-                            }
+                .social {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0 0 0 16px;
+                    li {
+                        margin: 0 16px;
+                        a {
+                            color: #fff;
                         }
                     }
-                
+                }
+          
                 p {
                     margin: 0;
                     margin-left: 8px;

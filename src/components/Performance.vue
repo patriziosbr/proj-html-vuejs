@@ -1,6 +1,6 @@
 <template>
   <section class="container-fluid bg-white">
-        <div class="mainHeading text-center mx-auto">
+        <div class="mainHeading text-center mx-auto container">
             <h5 class="text-uppercase my-4" >introduction video</h5>
             <h1 class="my-4">Advisory <span>Performance</span></h1>
             <p class="my-5">Financial executievs need to review thei strategies, operating models and capabilities so that their arear can generate sound information for better decision making.</p>
@@ -24,11 +24,8 @@ export default {
 @import "../style/vars.scss";
 
     .bg-white{
-        // height: 600px;
         background-color: #fff;
-
         .mainHeading {
-            width: 70%;
             padding: 64px;
             h5 {
                 font-size: 18px;

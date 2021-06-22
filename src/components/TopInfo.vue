@@ -97,6 +97,9 @@ export default {
                     li {
                         margin: 0 16px;
                         a {
+                            color: #ccc;
+                        }
+                        a:hover {
                             color: #fff;
                         }
                     }

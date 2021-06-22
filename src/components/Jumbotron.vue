@@ -29,7 +29,7 @@ export default {
 @import "../style/vars.scss";
 
     .jumbotron {
-        height: 100vh;
+        height: 700px;
         background-image: url(../assets/images/bg-2.jpg);
         background-size: cover;
         background-position: top;

@@ -1,13 +1,19 @@
 <template>
   <section>
-      <h2>Main Area txt</h2>
+
+      <Performance />
       
   </section>
 </template>
 
 <script>
+import Performance from "./Performance.vue"
+
 export default {
-    name: "Main"
+    name: "Main",
+    components: {
+      Performance
+    }
 }
 </script>
 

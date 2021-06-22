@@ -83,7 +83,7 @@ export default {
             content: "\f3c5";
             margin-right: 8px;
         }
-         .btn {
+        .btn {
             padding: 8px 24px;
             border: 1px solid $primary-color;
             color: #fff;
@@ -109,6 +109,7 @@ export default {
                 a {
                     color: #ccc;
                     text-decoration: none;
+                    text-transform: capitalize;
                 }
                 a:hover {
                     color: #fff;

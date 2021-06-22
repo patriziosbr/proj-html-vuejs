@@ -5,7 +5,7 @@
 
     <Main />
 
-    <Footer />
+    <Footer  :footOne="cardOne"/>
    
   </div>
 </template>
@@ -49,6 +49,36 @@ export default {
                   txt: "get in touch",
                   active: false
                 }
+            ],
+            cardOne: [
+            "A Functional HTML template for Business and Corporate", 
+            "123456789",
+            "mail@mail.com",
+            "Location via 123"
+            ],
+            cardTwo: [
+              "the company",
+              "institutional",
+              "social & events",
+              "innovation",
+              "Enviroment",
+              "technology"
+            ],
+            cardThree:[
+              "audit & assurance",
+              "financial advisoty",
+              "analytics M&A",
+              "middle marketing",
+              "legal consulting",
+              "regulatory risk"
+            ],
+            cardFour: [
+              "responsability",
+              "term of use",
+              "about cookies",
+              "privacy policy",
+              "accessibility",
+              "information"
             ]
         }
     },
@@ -62,6 +92,6 @@ export default {
 </script>
 
 <style lang="scss">
-
+// @import "../style/vars.scss";
 
 </style>

@@ -3,7 +3,7 @@
     <nav class="navBar">
         <div class="logo">
             <a href="/">
-                logo
+                <img src="../assets/images/logo.svg" alt="">
             </a>
         </div>
 
@@ -40,7 +40,10 @@ export default {
     padding: 24px 0;
 
     .logo {
-        padding: 8px 0;
+        width: 160px;
+        img {
+            width: 100%;
+        }
     }
 
     ul {

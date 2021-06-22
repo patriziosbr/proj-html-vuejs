@@ -5,7 +5,7 @@
 
     <Main />
 
-    <Footer  :footOne="cardOne"/>
+    <Footer  :footOne="cardOne" :footTwo="cardTwo" :footThree="cardThree" :footFour="cardFour"/>
    
   </div>
 </template>

@@ -20,7 +20,7 @@ export default {
     .bottom-bg {
         height: 50px;
         background-color: $bottom-info-bg;
-        color: #fff;
+        color: #ccc;
         font-size: 13px;
         span {
             color: $primary-color;

@@ -64,7 +64,7 @@ export default {
         font-size: 14px;
         
         .topInfo {
-            color: #fff;
+            color: #ccc;
             display: flex;
             justify-content: space-between;
             align-items: center;

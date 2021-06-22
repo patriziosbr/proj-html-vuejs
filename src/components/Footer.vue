@@ -1,7 +1,7 @@
 <template>
 <div>
   <section class="container-fluid">
-      <BottomCards :dataOne="footOne"/>
+      <BottomCards :dataOne="footOne" :dataTwo="footTwo" :dataThree="footThree" :dataFour="footFour"/>
   </section>
   <BottomInfo />
 
@@ -15,7 +15,7 @@ import BottomInfo from "./BottomInfo.vue"
 
 export default {
     name: "Footer",
-    props: ["footOne"],
+    props: ["footOne", "footTwo", "footThree", "footFour"],
     components: {
       BottomCards,
       BottomInfo

@@ -7,6 +7,7 @@
       <Team />
       <News />
       <Lead />
+      <Touch />
       
   </section>
 </template>
@@ -18,6 +19,7 @@ import Excellence from "./Excellence.vue"
 import Team from "./Team.vue"
 import News from "./News.vue"
 import Lead from "./Lead.vue"
+import Touch from "./Touch.vue"
 
 export default {
     name: "Main",
@@ -27,7 +29,8 @@ export default {
       Excellence,
       Team,
       News,
-      Lead
+      Lead,
+      Touch
     }
 }
 </script>

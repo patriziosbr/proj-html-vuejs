@@ -7,45 +7,47 @@
             <p class="my-4">Ethic an integrity are the bases on which our professionals build their careers.
             They are foundamentals that become daily attitudes.
             </p>
-            <div class="team-photos">
-                <div class="photo">
+            <div class="team-photos ">
+                <div class="photo d-flex mb-4">
                     <div>
-                        <img src="../assets/images/" alt="">
+                        <img src="../assets/images/team-1.jpg" alt="">
                     </div>
-                    <div>
+                    <div class="txt-photo p-4">
                         <h4>David Cooper</h4>
                         <p class="text-uppercase">cto &amp; co-founder</p>
-                        <div class="social-contact">
-                            <span>
+                        <div class="social-contact d-flex">
+                            <div>
                                 <i class="fab fa-facebook-f"></i>
-                            </span>
-                            <span>
+                            </div>
+                            <div>
                                 <i class="fab fa-twitter"></i>
-                            </span>
-                            <span>
+                            </div>
+                            <div>
                                 <i class="fab fa-linkedin-in"></i>
-                            </span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="photo"></div>
+                <div class="photo "></div>
                 <div class="photo"></div>
                 <div class="photo"></div>
             </div>
         </div>
           <div class="bg-myprimary ">
               <h3>President speech</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <p>
-              Autem veritatis repellendus, cum omnis, corrupti animi dicta maxime consequuntur iusto magnam eos illum esse dignissimos libero ullam molestiae doloribus corporis voluptates!
-              </p>
-              <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt quasi delectus corporis facere provident veritatis? Eum fugit sit dolore debitis.
-              </p>
-              <p>
-                <strong>Done Joe</strong>
-              </p>
+              <div class="d-flex flex-column justify-content-between">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <p>
+                    Autem veritatis repellendus, cum omnis, corrupti animi dicta maxime consequuntur iusto magnam eos illum esse dignissimos libero ullam molestiae doloribus corporis voluptates!
+                    </p>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt quasi delectus corporis facere provident veritatis? Eum fugit sit dolore debitis.
+                    </p>
+                    <p>
+                        <strong>Done Joe</strong>
+                    </p>
+                </div>
           </div>
       </div>
   </section>
@@ -89,10 +91,34 @@ export default {
             }
             .team-photos {
                 border: 1px solid red;
-                height: 500px;
                 width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
                 .photo {
-                    
+                    border: 1px solid blue;
+                    height: 150px;
+                    width: 48%;
+                    img {
+                        height:  100%;
+                        border-radius: 10px;
+                    }
+                    .txt-photo {
+                        .social-contact {
+                            div {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                
+                                height: 35px;
+                                width: 35px;
+                                margin-right: 16px; 
+                                border: 1px solid red;
+                                padding: 2px;
+                                border-radius: 50%
+                            };
+                        }
+                    }
                 }
             }
         }

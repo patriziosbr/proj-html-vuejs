@@ -5,6 +5,7 @@
       <Numbers />
       <Excellence />
       <Team />
+      <News />
       
   </section>
 </template>
@@ -14,6 +15,7 @@ import Performance from "./Performance.vue"
 import Numbers from "./Numbers.vue"
 import Excellence from "./Excellence.vue"
 import Team from "./Team.vue"
+import News from "./News.vue"
 
 export default {
     name: "Main",
@@ -21,7 +23,8 @@ export default {
       Performance,
       Numbers,
       Excellence,
-      Team
+      Team,
+      News
     }
 }
 </script>

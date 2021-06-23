@@ -9,7 +9,7 @@
             </p>
             <div class="team-photos ">
                 <div class="photo d-flex mb-4">
-                    <div>
+                    <div class="images">
                         <img src="../assets/images/team-1.jpg" alt="">
                     </div>
                     <div class="txt-photo p-4">
@@ -28,9 +28,66 @@
                         </div>
                     </div>
                 </div>
-                <div class="photo "></div>
-                <div class="photo"></div>
-                <div class="photo"></div>
+                <div class="photo d-flex mb-4">
+                    <div class="images">
+                        <img src="../assets/images/team-3.jpg" alt="">
+                    </div>
+                    <div class="txt-photo p-4">
+                        <h4>David Cooper</h4>
+                        <p class="text-uppercase">cto &amp; co-founder</p>
+                        <div class="social-contact d-flex">
+                            <div>
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div>
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div>
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo d-flex mb-4">
+                    <div class="images">
+                        <img src="../assets/images/team-2.jpg" alt="">
+                    </div>
+                    <div class="txt-photo p-4">
+                        <h4>David Cooper</h4>
+                        <p class="text-uppercase">cto &amp; co-founder</p>
+                        <div class="social-contact d-flex">
+                            <div>
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div>
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div>
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo d-flex mb-4">
+                    <div class="images">
+                        <img src="../assets/images/team-4.jpg" alt="">
+                    </div>
+                    <div class="txt-photo p-4">
+                        <h4>David Cooper</h4>
+                        <p class="text-uppercase">cto &amp; co-founder</p>
+                        <div class="social-contact d-flex">
+                            <div>
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div>
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div>
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
           <div class="bg-myprimary ">
@@ -90,40 +147,47 @@ export default {
                 color: #7D878E;
             }
             .team-photos {
-                border: 1px solid red;
+                
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
                 .photo {
-                    border: 1px solid blue;
+                    
                     height: 150px;
                     width: 48%;
-                    img {
-                        height:  100%;
-                        border-radius: 10px;
+                    .images {
+                        img {
+                            height:  100%;
+                            border-radius: 10px;
+                        }
+
                     }
                     .txt-photo {
+                        p {
+                            font-size: 13px;
+                        }
                         .social-contact {
                             div {
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
-                                
+                                color: $primary-color;
+                                background-color: $primary-light;
                                 height: 35px;
                                 width: 35px;
                                 margin-right: 16px; 
-                                border: 1px solid red;
                                 padding: 2px;
-                                border-radius: 50%
-                            };
+                                border-radius: 50%;
+                                cursor: pointer;
+                            }
                         }
                     }
                 }
             }
         }
         .bg-myprimary {
-            
+            align-self: center;
             width: 30%;
             background-color: $primary-color;
             border-radius: 20px;

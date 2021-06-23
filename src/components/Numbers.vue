@@ -56,7 +56,7 @@ export default {
     }
 
     .bg-car {
-        height: 600px;
+        // height: 600px;
         position: relative;
         .heading-cars {
             position: relative;
